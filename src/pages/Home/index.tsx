@@ -1,7 +1,11 @@
-import { HomeContainer } from "./styles";
+import { Introduction } from "./components/Introduction";
+import { ListProducts } from "./components/ListProducts";
 
 export function Home() {
   return (
-    <HomeContainer>Home</HomeContainer>
+    <>
+      <Introduction />
+      <ListProducts />
+    </>
   )
 }
